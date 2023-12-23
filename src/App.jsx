@@ -72,7 +72,6 @@ const toggleDarkMode = () => {
 
   return (
     <div className="p-10 xl:px-24 animate-fadeIn dark:bg-night">
-      <h1>Hello world</h1>
       <Nav onClickShoppingButton={() => setIsSidebarOpen(true)} />
       <ShoeDetail shoe={currentShoe} onClickAdd={addToCart} />
       {/* <Card item={SHOE_LIST[0]} /> */}
